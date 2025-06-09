@@ -1,136 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Guia HTML para Iniciantes</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        padding-top: 2rem;
-        background-color: #f8f9fa;
-      }
-      h1, h2 {
-        margin-top: 2rem;
-      }
-      code {
-        background-color: #082241;
-        padding: 0.2rem 0.4rem;
-        border-radius: 4px;
-        color: #fff
-      }
-      pre {
-        background-color: #082241;
-        color: #f8f9fa;
-        padding: 1rem;
-        border-radius: 8px;
-        overflow-x: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="text-primary">Guia HTML para Iniciantes</h1>
-      <p class="lead">
-        Aprenda o básico sobre como criar páginas da web usando HTML!
-      </p>
 
-      <h2>1. O que é HTML?</h2>
-      <p>
-        <strong>HTML</strong> significa <em>HyperText Markup Language</em>, ou
-        seja, Linguagem de Marcação de Hipertexto. Ele é usado para estruturar o
-        conteúdo da web.
-      </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guia Completo de HTML - Aprenda em 1 Mês</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      padding-top: 2rem;
+      background-color: #f8f9fa;
+    }
 
-      <h2>2. Para que serve?</h2>
+    h1,
+    h2 {
+      margin-top: 2rem;
+    }
+
+    code {
+      background-color: #082241;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      color: #fff
+    }
+
+    pre {
+      background-color: #082241;
+      color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-primary">Guia Completo de HTML - Aprenda em 1 Mês</h1>
+    <p class="lead">
+      Este guia foi pensado para te ensinar HTML do zero ao essencial em 4 semanas, com teoria, prática e desafios
+      semanais.
+    </p>
+
+    <a class="card p-3 mb-3 text-decoration-none text-dark" href="/semana1.html">
+      <h2 class="m-0 text-center">Semana 1: Fundamentos do HTML</h2>
       <ul>
-        <li>Exibir textos, imagens e vídeos no navegador</li>
-        <li>Organizar conteúdo como parágrafos, links, títulos e listas</li>
-        <li>É a base de qualquer página web</li>
+        <li>O que é HTML?</li>
+        <li>Tags básicas: <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>,
+          <code>&lt;h1&gt;</code> até <code>&lt;h6&gt;</code>, <code>&lt;p&gt;</code>
+        </li>
+        <li>Listas: <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></li>
+        <li>Links e imagens: <code>&lt;a href&gt;</code>, <code>&lt;img src&gt;</code></li>
+        <li>Prática: Criar uma página "Sobre mim" com seus hobbies, uma foto e um link</li>
       </ul>
+    </a>
 
-      <h2>3. Como criar seu primeiro arquivo HTML?</h2>
-      <ol>
-        <li>Abra um editor de texto como o Visual Studio Code</li>
-        <li>Crie um novo arquivo e salve como <code>index.html</code></li>
-        <li>Copie e cole a estrutura abaixo</li>
-      </ol>
-
-      <h2>4. Estrutura básica de um HTML</h2>
-      <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Minha Primeira Página&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
-    &lt;p&gt;Essa é a minha primeira página web.&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-
-      <h2>5. Principais Elementos</h2>
-      <table class="table table-bordered table-striped">
-        <thead class="table-light">
-          <tr>
-            <th>Tag</th>
-            <th>Descrição</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td><code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code></td><td>Títulos (do maior ao menor)</td></tr>
-          <tr><td><code>&lt;p&gt;</code></td><td>Parágrafos de texto</td></tr>
-          <tr><td><code>&lt;a href=""&gt;</code></td><td>Links para outros sites</td></tr>
-          <tr><td><code>&lt;img src=""&gt;</code></td><td>Imagens</td></tr>
-          <tr><td><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></td><td>Listas</td></tr>
-          <tr><td><code>&lt;div&gt;</code></td><td>Bloco de conteúdo</td></tr>
-          <tr><td><code>&lt;span&gt;</code></td><td>Trecho de texto</td></tr>
-        </tbody>
-      </table>
-
-      <h2>6. Como visualizar no navegador?</h2>
-      <ol>
-        <li>Salve o arquivo como <code>index.html</code></li>
-        <li>Dê dois cliques nele</li>
-        <li>Ele será aberto no seu navegador padrão</li>
-      </ol>
-
-      <h2>7. Prática simples: Página pessoal</h2>
-      <p>Copie e cole este código no seu arquivo <code>index.html</code>:</p>
-      <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Sobre mim&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Olá! Eu sou a Maria&lt;/h1&gt;
-    &lt;p&gt;Estou aprendendo desenvolvimento web.&lt;/p&gt;
-    &lt;h2&gt;Meus hobbies&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Ler livros&lt;/li&gt;
-      &lt;li&gt;Ouvir música&lt;/li&gt;
-      &lt;li&gt;Aprender coisas novas&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;p&gt;Visite meu &lt;a href="https://www.exemplo.com"&gt;site favorito&lt;/a&gt;.&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-
-      <h2>8. Próximos passos</h2>
+    <a class="card p-3 mb-3 text-decoration-none text-dark" href="/semana2.html">
+      <h2 class="m-0 text-center">Semana 2: Organização de Conteúdo</h2>
       <ul>
-        <li><strong>CSS</strong> – para estilizar (cores, fontes)</li>
-        <li><strong>JavaScript</strong> – para interações</li>
-        <li><strong>Responsividade</strong> – para celulares</li>
-        <li><strong>Hospedagem</strong> – para colocar seu site no ar</li>
+        <li>Estrutura de seções com <code>&lt;div&gt;</code> e <code>&lt;section&gt;</code></li>
+        <li>Uso de <code>&lt;span&gt;</code>, <code>&lt;br&gt;</code> e <code>&lt;hr&gt;</code></li>
+        <li>Criação de tabelas com <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code> e
+          <code>&lt;th&gt;</code>
+        </li>
+        <li>Formatação de texto: <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;mark&gt;</code>,
+          <code>&lt;small&gt;</code>
+        </li>
+        <li>Prática: Criar uma tabela de tarefas e uma ficha de personagem</li>
       </ul>
+    </a>
 
-      <hr />
-      <p class="text-center text-muted">Feito com ❤️ para iniciantes em HTML</p>
-    </div>
-  </body>
+    <a class="card p-3 mb-3 text-decoration-none text-dark" href="/semana3.html">
+      <h2 class="m-0 text-center">Semana 3: Formulários e Acessibilidade</h2>
+      <ul>
+        <li>Formulários: <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>,
+          <code>&lt;label&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;option&gt;</code>
+        </li>
+        <li>Atributos importantes: <code>placeholder</code>, <code>value</code>, <code>required</code>,
+          <code>type</code>
+        </li>
+        <li>Boas práticas de acessibilidade: uso de <code>&lt;label for&gt;</code>, estrutura semântica</li>
+        <li>Prática: Criar um formulário de cadastro com campos obrigatórios</li>
+      </ul>
+    </a>
+
+    <a class="card p-3 mb-3 text-decoration-none text-dark" href="/semana4.html">
+      <h2 class="m-0 text-center">Semana 4: Projeto Final e Otimizações</h2>
+      <ul>
+        <li>Revisar tudo aprendido</li>
+        <li>Organizar HTML com comentários</li>
+        <li>Aplicar layout com <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>,
+          <code>&lt;footer&gt;</code>
+        </li>
+        <li>Inserir ícones e vídeos (usando <code>&lt;iframe&gt;</code> ou <code>&lt;video&gt;</code>)</li>
+        <li>Projeto final: Criar uma página com currículo, formulário de contato e portfólio de links</li>
+      </ul>
+    </a>
+
+    <h2>Extras Úteis</h2>
+    <ul>
+      <li>Validação do código: https://validator.w3.org</li>
+      <li>Ícones gratuitos: https://fontawesome.com ou https://icons.getbootstrap.com</li>
+      <li>Imagens gratuitas: https://unsplash.com</li>
+      <li>Hospedagem grátis: https://vercel.com ou https://netlify.com</li>
+    </ul>
+
+    <hr />
+    <p class="text-center text-muted">Feito com ❤️ para você aprender HTML de forma clara, prática e gratuita</p>
+  </div>
+</body>
+
 </html>
